@@ -26,14 +26,14 @@ main {
 #logo-img-link img {
   height: 7.25rem;
   width: 7.25rem;
-  margin: 4rem 0 0 -4rem;
+  margin: 5rem 0 0 -4rem;
   border-radius: 50%;
 }
 /*  */
 #logo-text {
   font-weight: bold;
   font-size: 2rem;
-  margin-left: -16rem;
+  margin-left: -17.25rem;
 }
 
 #main-header nav {
