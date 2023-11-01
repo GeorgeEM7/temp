@@ -61,7 +61,7 @@ if (process.env.PORT) {
 db.connectToDatabase()
   .then(function () {
     app.listen(port);
-    // console.log(`app listening at port: ${port}`);
+    console.log(`app listening at port: ${port}`);
   })
   .catch(function (error) {
     console.log("Failed to connect to the database!");

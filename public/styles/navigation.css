@@ -18,9 +18,22 @@ main {
   background-color: var(--color-gray-500);
 }
 
-#logo a {
+/* added earlier */
+#logo {
+  flex-direction: row;
+  justify-content: space-between;
+}
+#logo-img-link img {
+  height: 7.25rem;
+  width: 7.25rem;
+  margin: 4rem 0 0 -4rem;
+  border-radius: 50%;
+}
+/*  */
+#logo-text {
   font-weight: bold;
   font-size: 2rem;
+  margin-left: -16rem;
 }
 
 #main-header nav {
@@ -76,6 +89,7 @@ main {
   display: none;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 #mobile-menu.open {
@@ -92,6 +106,15 @@ main {
 #mobile-menu .nav-items button {
   font-size: 1.75rem;
   color: var(--color-primary-100);
+}
+
+@media (max-width: 1075px) {
+ #logo-img-link{
+  display: none;
+ }
+ #logo-text {
+  margin-left: 0;
+}
 }
 
 @media (min-width: 48rem) {
@@ -111,7 +134,7 @@ main {
     color: var(--color-primary-500);
     border-color: var(--color-primary-500);
   }
-  
+
   #mobile-menu-btn {
     display: none;
   }
