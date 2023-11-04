@@ -1,3 +1,11 @@
+#manage-product-title {
+  display: flex;
+  align-items: center;
+}
+#manage-product-title p {
+  margin-left: 1rem;
+}
+
 #products-grid {
   margin: var(--space-8) auto;
   display: grid;

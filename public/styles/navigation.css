@@ -26,7 +26,7 @@ main {
 #logo-img-link img {
   height: 7.25rem;
   width: 7.25rem;
-  margin: 5rem 0 0 -4rem;
+  margin: 5rem 0 0 -5.75rem;
   border-radius: 50%;
 }
 /*  */
@@ -34,6 +34,7 @@ main {
   font-weight: bold;
   font-size: 2rem;
   margin-left: -17.25rem;
+  padding-left: 1rem;
 }
 
 #main-header nav {
@@ -114,6 +115,7 @@ main {
  }
  #logo-text {
   margin-left: 0;
+  padding-left: 0;
 }
 }
 
