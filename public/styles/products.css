@@ -21,11 +21,17 @@
 }
 
 .product-item img {
+  transition: 1000ms;
   width: 100%;
   height: 10rem;
   object-fit: cover;
 }
 
+.product-item img:hover {
+  transition: 1000ms;
+  width: calc(100% + 5rem);
+  /* height: calc(10rem + 5rem); */
+}
 .product-item-content {
   padding: var(--space-4);
 }
@@ -73,10 +79,14 @@
   }
 
   #product-details img {
+    transition: 1000ms;
     width: 20rem;
     height: 15rem;
-    transform: rotateZ(-10deg);
     margin: var(--space-8);
+  }
+  #product-details img:hover {
+    transition: 1000ms;
+    transform: rotateZ(-10deg);
   }
 
   #product-info {

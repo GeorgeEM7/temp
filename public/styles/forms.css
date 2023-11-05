@@ -23,7 +23,17 @@ input, textarea {
 }
 
 #image-upload-control input {
-  max-width: 15rem;
+  max-width: 25rem;
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-file-upload-button {
+  font: inherit;
+  padding: var(--space-2);
+  border-radius: var(--border-radius-small);
+  border: none;
+  margin-right: 0.8rem;
 }
 
 #image-upload-control img {
